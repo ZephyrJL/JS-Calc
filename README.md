@@ -6,3 +6,5 @@ Adding negative numbers as a pre fix, right now the only way to get a negative n
 Adding a little more visual appeal to the calc, it's pretty barebones to look at.
 
 Maybe some other things I'll eventually learn with time in JS.. maybe some backend things..?
+
+Most likely going to keep my journey updated here learning other projects to eventually build up and create my own, in the meantime I hope I can look back at this first basic project with fond memories of how I started my journey.
