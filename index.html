@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href ="resources/css/cssBasic.css">
+    </head>
+    <body>
+        <title>JS Calculator</title>
+        <h1>Welcome to the JS Calculator</h1>
+        <p id= "WelcomeText">Hello Guest!</p> 
+        <br> 
+        <form id="nameForm">
+            <label for="firstName">Your name :</label>
+            <input type="text" name="firstname">
+            <button type="submit">Submit</button>
+        </form>
+        <div class="Calculator">
+            <div class ="CalculatorNumbers">
+                <button class="number-button" data-value="1">1</button>
+                <button class="number-button" data-value="2">2</button>
+                <button class="number-button" data-value="3">3</button>
+                
+                <button class="number-button" data-value="4">4</button>
+                <button class="number-button" data-value="5">5</button>
+                <button class="number-button" data-value="6">6</button>
+                
+                <button class="number-button" data-value="7">7</button>
+                <button class="number-button" data-value="8">8</button> 
+                <button class="number-button" data-value="9">9</button>
+                
+                <button class="number-button" data-value="0">0</button>
+                <button class="number-button" data-value=".">.</button>
+                
+            </div>
+            <div class ="CalculatorOperators">
+                <button class="operator-button" data-value="+">+</button>
+                <button class="operator-button" data-value="-">-</button>
+                <button class="operator-button" data-value="*">*</button>
+                <button class="operator-button" data-value="/">/</button>
+                
+            </div>
+            <div class ="CalculatorActions">
+                <button id="clear-button">C</button>
+                <button id="equals-button">=</button>
+              
+            </div>
+            <div class="CalculatorDisplay">
+                <input type="text" id="display" readonly>
+            </div>
+        </div>
+        <script src="resources/js/javascript.js"></script>
+    </body>
+</html>
